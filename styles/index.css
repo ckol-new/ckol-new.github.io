@@ -1,0 +1,17 @@
+body {
+    background-color: #3c6e71;
+    text-align: center;
+    color: white;
+    h1 {
+        font-size: 36pt;
+    }
+
+    p {
+        font-size: 18pt;
+    }
+
+    a {
+        font-size: 18pt;
+        color: #353535;
+    }
+}
