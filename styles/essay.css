@@ -15,4 +15,15 @@ body {
         font-size: 18pt;
         color: #353535;
     }
+    pre {
+        color: white;
+        font-size: 18pt;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
 }
