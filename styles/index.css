@@ -15,3 +15,9 @@ body {
         color: #353535;
     }
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
