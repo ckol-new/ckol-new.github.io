@@ -1,6 +1,11 @@
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the blocks themselves */
+    margin: 0;
+    padding: 2rem;
     background-color: #3c6e71; 
-    text-align: center;
+
     h1 {
         color: white;
         font-size: 36pt;
@@ -22,8 +27,15 @@ body {
     }
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    text-align: left;
+.poem-container {
+    white-space: pre-wrap;   /* keep line breaks you define */
+    text-align: left;        /* lines align vertically */
+    margin-left: 3rem auto;
+    padding: 2rem auto;       /* center block on page */
+}
+
+.prose-container {
+    text-align: left;        /* normal flowing text */
+    margin: 2rem auto;
+    max-width: 60ch;
 }

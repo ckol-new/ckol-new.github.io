@@ -16,8 +16,11 @@ body {
     }
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    text-align: left;
+.list-container {
+    border-color:#353535;
+    border-style: double;
+    text-align: center;        /* normal flowing text */
+    margin: 2rem auto;
+    max-width: 60ch;
+    padding:10%;
 }
