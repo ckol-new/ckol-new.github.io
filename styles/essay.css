@@ -13,7 +13,7 @@ body {
 
     p {
         color: white;
-        font-size: 18pt;
+        font-size: clamp(12px, 3vw, 24px);
     }
         
     a {
@@ -24,6 +24,9 @@ body {
         color: white;
         font-size: 18pt;
         font-family: 'Times New Roman', Times, serif;
+        font-size: clamp(12px, 3vw, 24px);
+        white-space: pre-wrap;
+        word-wrap: break-word;
     }
 }
 
